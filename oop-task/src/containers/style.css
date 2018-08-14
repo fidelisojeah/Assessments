@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   grid-gap: 20px;
+}
+
+/* .grid-container .card:first-child {
+    grid-row: span 2;
+ } */
+ .card{
+    border-radius: .25px;
+    height:600px;
+ }
+.card-img-top{
+    background-size: cover;
+ min-height: 180px;
+ background-position: center;
+}
